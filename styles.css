@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+body{
+	text-align: left;
+}
+header {
+	background-color: #E8E0E0;
+	padding: 2px 0 0 0;
+	text-align: center;
+	font-family: 'Gill Sans';
+}
+nav{
+	background-color: #EDEDE1;
+	border-top: #2d0070 solid 3px;
+	color; #ffffff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+nav a{
+	color; #ffffff;
+	text-decoration: none;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	display: inline-block;
+	width: 80px;
+	padding: 5px;
+	margin-right: 30px;
+	font-size: 85%;
+}
+footer{
+	font-size: medium;
+	border-top: #131111 solid 2px;
+	text-align: left;
+	padding-top: 0px;
+}
+footer p{
+	margin-left: 20px;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.regForm{
+	background-color: #E8E0E0;
+	height: 105%;
+	width: 500px;
+	border: solid #372323 thin;
+	border-radius: 10px;
+	padding: 1px 0 3px 0;
+	display: grid;
+	grid-area: 1/2;
+}
+.signForm{
+	background-color: #E8E0E0;
+	height: 105%;
+	width: 500px;
+	border: solid #372323 medium;
+	border-radius: 10px;
+	padding: 1px 0 3px 0;
+	display: grid;
+	grid-area: 1/2;
+}
+.signForm h1{
+	color: #E19D9E;
+	font-weight: bold;
+}
+.regForm h1{
+	color: #E19D9E;
+}
+label{
+	color: #E19D9E;
+}
+.form{
+	text-align: right;
+	margin-right: 8%
+}
+.form2{
+	text-align: right;
+	margin-right: 8%
+}
+.submit{
+	background-color: #E8E0E0;
+	color; #blue;
+	font-weight: bold;
+	margin-top: 5px;
+	padding: 5px 10px 5px 10px;
+	border: solid white thin;
+}
+input{
+	border: solid #E19D9E thin;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
